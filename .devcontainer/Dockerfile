@@ -15,3 +15,10 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 #
 # RUN curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- --default-toolchain leanprover/lean4:stable --no-modify-path -y
 # ENV PATH="$HOME/.elan/bin:${PATH}"
+
+USER vscode
+WORKDIR /home/vscode
+
+RUN curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- -y --default-toolchain leanprover/lean4:stable
+
+ENV PATH="/home/vscode/.elan/bin:${PATH}"

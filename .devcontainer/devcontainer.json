@@ -9,6 +9,8 @@
 		"args": { "VARIANT": "bullseye" }
 	},
 
+	"onCreateCommand": "lake exe cache get!",
+	
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
