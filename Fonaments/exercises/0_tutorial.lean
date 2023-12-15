@@ -394,5 +394,8 @@ example (P Q : Prop) (h : P → Q) (h' : P) : Q := by
   tàctica `group` demostra identitats que es satisfan en qualsevol grup (additiu o multiplicatiu),
   la tàctica `ring` fa el mateix per anells,...
 
+  També hi ha tàctiques que busquen resultats ja coneguts. La més senzilla s'anomena `exact?`, i
+  busca si hi ha algun teorema que demostra l'objectiu exactament, fent servir
+  les hipòtesis disponibles.
 -/
 
