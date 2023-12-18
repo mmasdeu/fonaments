@@ -3,7 +3,7 @@ import Mathlib.Data.Finsupp.Defs
 import Mathlib.Init.Function
 import Mathlib.Data.Real.Basic
 import Mathlib.Data.Rat.Lemmas
-import Verbose.Catalan.All
+import Verbose.Catalan.Help
 
 open Function Finset Dvd
 open scoped BigOperators

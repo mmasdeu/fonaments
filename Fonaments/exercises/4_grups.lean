@@ -1,5 +1,5 @@
 import Mathlib.Tactic
-import Verbose.Catalan.All
+import Verbose.Catalan.Help
 
 variable {G : Type} [Group G]
 

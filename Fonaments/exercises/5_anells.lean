@@ -1,5 +1,5 @@
 import Mathlib.Tactic
-import Verbose.Catalan.All
+import Verbose.Catalan.Help
 
 /-
 En aquest exercici us pot ser útil el teorema

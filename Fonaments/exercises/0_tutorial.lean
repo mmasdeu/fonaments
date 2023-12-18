@@ -1,4 +1,4 @@
-import Verbose.Catalan.All
+import Verbose.Catalan.Help
 import Mathlib.Tactic
 
 /-
@@ -57,7 +57,7 @@ example (P : ℕ → ℕ  → Prop) : ∀ x y, (x ≠ y) → P x y := by
 -/
 
 example (P : ℕ → Prop) (h : ∀ x, P x) : False := by
-  Especialitzem h en 2
+  ajuda
   sorry
 
 example (P : ℕ → Prop) (h : ∀ x, P x) : False := by

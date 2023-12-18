@@ -1,5 +1,5 @@
 import Mathlib.Tactic
-import Verbose.Catalan.All
+import Verbose.Catalan.Help
 
 
 Exemple "Exercici del Parcial 2024"
