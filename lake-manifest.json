@@ -58,7 +58,7 @@
   {"url": "https://github.com/mmasdeu/verbose-lean4",
    "type": "git",
    "subDir": null,
-   "rev": "55482b744ff7a324033ceac920e8daea2c61924b",
+   "rev": "b5393db4bd1ceb081d96d4d4ca7b9900a8dfc99e",
    "name": "verbose",
    "manifestFile": "lake-manifest.json",
    "inputRev": null,
